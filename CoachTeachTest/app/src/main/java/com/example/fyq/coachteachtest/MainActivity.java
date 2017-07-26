@@ -2,12 +2,8 @@ package com.example.fyq.coachteachtest;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 
 import AutoLayoutUtils.AutoUtils;
@@ -34,7 +30,7 @@ public class MainActivity extends Activity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity.this.startActivity(new Intent(MainActivity.this,Coashlist.class));
+                MainActivity.this.startActivity(new Intent(MainActivity.this, Coashlist.class));
             }
         });
 

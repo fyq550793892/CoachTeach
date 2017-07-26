@@ -5,5 +5,16 @@ package com.example.fyq.coachteachtest;
  */
 
 public class Coach {
-
+    private String name;
+    private int imageId;
+    public Coach(String name,int imageId){
+        this.imageId=imageId;
+        this.name=name;
+    }
+    public String getName(){
+         return name;
+    }
+    public int getImageId(){
+        return imageId;
+    }
 }
